@@ -23,7 +23,7 @@
     "test": "mocha --compilers js:babel-register test",
     "lint": "eslint --ext '.js' ./src",
     "flow": "flow",
-    "postinstall": "gulp"
+    "postinstall": "gulp default"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
