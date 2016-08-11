@@ -22,7 +22,8 @@
     "codecov": "istanbul cover ./node_modules/.bin/_mocha -- test --recursive --compilers js:babel-register && codecov",
     "test": "mocha --compilers js:babel-register test",
     "lint": "eslint --ext '.js' ./src",
-    "flow": "flow"
+    "flow": "flow",
+    "prepublish": "gulp"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
