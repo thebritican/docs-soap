@@ -107,7 +107,7 @@ const getCleanNode = (
       newWrapper = document.createElement('p');
       newNode = applyBlockStyles(node);
     } else if (node.nodeName === 'BR') {
-      newNode = node
+      newNode = node;
     } else {
       newWrapper = document.createElement('span');
       newNode = applyInlineStyles(node);
